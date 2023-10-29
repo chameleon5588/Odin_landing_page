@@ -14,10 +14,13 @@ body {
 
 }
 
+
+
 .first-bar {
     background: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    display: flex;
 
 }
 
@@ -26,9 +29,26 @@ body {
     color: #F9FAF8;
 }
 
+.B2_par {
+    color:#1F2937;
+    font-weight: bold;
+}
+
 
 a, a:visited {
     text-decoration: none;
-    
-    
+        
+}
+
+.third-bar {
+    background-color: #E5E7EB;
+}
+
+.B3_par_1{
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.B3_par_2{
+    font-weight: bold;
 }
