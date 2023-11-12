@@ -38,7 +38,7 @@ body {
 
 
 
-.first-bar {
+.first_bar {
     
     background: #1F2937;
     color: #E5E7EB;
@@ -73,10 +73,44 @@ body {
     padding: 5px 0 5px 0;
 }
 
+.second_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15% 40px 15%;
+    
+
+}
+
 .B2_par {
     color:#1F2937;
     font-weight: bold;
 }
+
+.B2_cards_table {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.B2_card_top {
+    
+    border-radius: 20px;
+    border: 4px #0092ca;
+    border-style: solid;
+    padding: 80px 80px 80px 80px;
+    
+}
+
+.B2_card_bottom {
+    padding-top: 10px;
+    width: 160px;
+}
+
+
 
 .right_par {
     width: 50%;
@@ -93,7 +127,7 @@ a, a:visited {
         
 }
 
-.third-bar {
+.third_bar {
     background-color: #E5E7EB;
 }
 
