@@ -129,6 +129,11 @@ a, a:visited {
 
 .third_bar {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0px 20% 40px 20%;
+
 }
 
 .B3_par_1{
@@ -141,4 +146,5 @@ a, a:visited {
 
 .B3_par_2{
     font-weight: bold;
+    margin-left: auto;
 }
