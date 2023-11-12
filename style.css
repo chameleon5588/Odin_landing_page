@@ -2,6 +2,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
+    font-size: 18px;
+    
     
   }
 
@@ -85,6 +87,7 @@ body {
 .B2_par {
     color:#1F2937;
     font-weight: bold;
+    font-size: 24px;
 }
 
 .B2_cards_table {
@@ -147,4 +150,39 @@ a, a:visited {
 .B3_par_2{
     font-weight: bold;
     margin-left: auto;
+}
+
+.fourth_bar {
+    background:#0092ca;
+    margin: 40px 15% 40px 15%; 
+    display: flex;
+    border-radius: 7px;
+    color: white;
+    padding:  30px 50px 30px 50px;
+    justify-content: space-between;
+        
+}
+
+
+.B4_par {
+
+}
+
+.B4_par_1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.B4_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 3px white;
+    border-style: solid;
+    border-radius: 7px;
+    font-weight: bold;
+    padding:  5px 30px 5px 30px;
+
 }
