@@ -1,7 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    
     min-height: 100vh;
     
   }
@@ -11,11 +10,12 @@ body {
     display: flex;
     background: #1F2937;
     align-items: center;
-    
     color: #f9faf8;
-    padding-top: 15px;
-    
-    
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+    justify-content: space-between;
 
 }
 
@@ -23,7 +23,7 @@ body {
 
 .H_par {
     font-size: 24px;    
-    padding: 0px 0 30px 15%;
+    
     
     
 }
@@ -31,10 +31,7 @@ body {
 .H_link {
     margin-left: auto;
     font-size: 18px;
-    padding: 0px 15% 30px 0px;
-    
-
-    
+          
 }
 
 
@@ -45,19 +42,31 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
-    
+    padding: 0px 15% 0px 15%;
 
-
+}
+.left_par{
+    width: 50%;
+    padding: 0px 5% 0px 0px;
 }
 
 .B1_par_1 {
     font-size: 48px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
 .B2_par {
     color:#1F2937;
     font-weight: bold;
+}
+
+.right_par {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    background: lightslategrey;
 }
 
 
